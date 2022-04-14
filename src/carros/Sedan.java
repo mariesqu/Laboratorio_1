@@ -1,7 +1,6 @@
 package carros;
 
 import motores.Motor;
-import motores.MotorDiesel;
 
 public class Sedan extends CarroBase {
 
