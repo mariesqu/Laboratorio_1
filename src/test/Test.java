@@ -20,10 +20,10 @@ public class Test {
 		
 		//inyectando una instancia de motor gasolina al carro sedan
 		//esto lo permite el polimorfismo
-		CarroBase carro = new Sedan(motorGasolina);//polimorfismo
+		CarroBase carro = new Pickup(motorGasolina);//polimorfismo
 		carro.imprimirCategoria();
 		
-		carro = new Pickup(motorGasolina);
+		carro = new Sedan(motorGasolina);
 		carro.imprimirCategoria();
 		
 		carro = new Crossover(motorGasolina);
